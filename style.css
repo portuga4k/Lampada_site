@@ -13,11 +13,20 @@
 
    #imgLampadaOn{     
     background-color: yellow;
+    height: 1700px;
+    width: 1100px;
+    visibility: visible;
 
    }
 
    #imgLampadaOff{
+    position: relative;
     background-color: black;
+    visibility: none;
+    height: 1700px;
+    width: 1100px;
+    
+    
 
    }
 
