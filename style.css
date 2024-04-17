@@ -6,33 +6,17 @@
         font-style: italic;
         font-size: 80px;
         margin-top: 5px;
+        margin-left: 300px;
         justify-content: center;
         text-align: center;
+
               
     }
 
-   #imgLampadaOn{     
-    background-color: yellow;
+   #lampada{
     height: 1700px;
-    width: 1100px;
-    visibility: visible;
-
+    width: 1000px;
    }
-
-   #imgLampadaOff{
-    position: relative;
-    background-color: black;
-    visibility: none;
-    height: 1700px;
-    width: 1100px;
-    
-    
-
-   }
-
-    
-
-    
 
 
 

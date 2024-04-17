@@ -1,22 +1,19 @@
+
+
+
 function mudarTexto(){
 
     //declaração de variáveis
-    var botao = document.getElementById("botaoLigar");
-    var on = document.getElementById ("imgLampadaOn");
-    var off = document.getElementById ("imgLampadaOff");
+    let botao = document.getElementById("botaoLigar");
     
     //mudança do texto
     if(botao.value == "Desligar"){
   
         botao.value = "Ligar";
-        on.style.visibility = "hidden";
-        off.style.visibility = "visible";
-
+        
     }else {
 
         botao.value = "Desligar";
-        on.style.visibility = "visible";
-        off.style.visibility = "hidden";
 
     } 
     //console.log("adoro cock");
@@ -24,9 +21,22 @@ function mudarTexto(){
 
 function mudarImagem(){
 
+    let imagens = document.getElementById("lampada");
     
+
+    if(imagens.src.match("bulb-on.png")){
+       
+        imagens.src = "bulb-off.png";
+        
+        
+
+    }else {
+
+        imagens.src = "bulb-on.png";
+    }
+      
     
 }
 
-document.getElementById("botaoLigar").addEventListener(mudarTexto, mudarImagem);
+
 
