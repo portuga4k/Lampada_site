@@ -5,28 +5,21 @@
         background-color: greenyellow;
         font-style: italic;
         font-size: 80px;
-        margin-top: 15cm;
-        margin-left: 50%;
+        margin-top: 5px;
         justify-content: center;
         text-align: center;
               
     }
 
-    #imgLampada{
-        
-        margin-top: 25%;
-        margin-left: 45%;
-        width: 15px;
-        height: 25px;
-    }
+   #imgLampadaOn{     
+    background-color: yellow;
 
-    #imgLampadaOff{
-        
-        margin-top: 25%;
-        margin-left: 45%;
-        width: 15px;
-        height: 25px;
-    }
+   }
+
+   #imgLampadaOff{
+    background-color: black;
+
+   }
 
     
 

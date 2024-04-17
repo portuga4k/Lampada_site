@@ -1,29 +1,28 @@
-function mudarElementos(){
+function mudarTexto(){
+
     //declaração de variáveis
-    let textoBotao = document.getElementById("botaoLigar").textContent;
-    let imageDisplay = document.getElementById("imgLampadaOff");
+    var botao = document.getElementById("botaoLigar");
     
-    
-    //intercalar entre os dois textos possíveis
-    switch(textoBotao){
-        case "Ligar":
-            textoBotao.textContent = "Desligar";
-        case "Desligar":
-            textoBotao.textContent ="Ligar";
-    }
-    
-    //mudar a imagem
-    switch (imageDisplay){
-        case "imgLampadaOff":
-            imageDisplay = "imgLampadaOn";
-        case "imgLampadaOn":
-            imageDisplay = "imgLampadaOff";
+    //mudança do texto
+    if(botao.value == "Desligar"){
+  
+        botao.value = "Ligar";
 
-    }
+    }else {
 
+        botao.value = "Desligar";
+
+    } 
     //console.log("adoro cock");
 }
 
+function mudarImagem(){
+
+    
+    
+    
+}
+
 //mudar o texto do botão quando é clicado
-document.getElementById("botaoLigar").addEventListener("click", mudarElementos);
-//document.getElementById("botaoLigar").addEventListener("click", mudarImagem);
+
+document.getElementById("botaoLigar").addEventListener("click", mudarImagem);
