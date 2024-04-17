@@ -11,12 +11,14 @@ function mudarTexto(){
   
         botao.value = "Ligar";
         
+        
     }else {
 
         botao.value = "Desligar";
+        
 
     } 
-    //console.log("adoro cock");
+    
 }
 
 function mudarImagem(){
@@ -27,15 +29,12 @@ function mudarImagem(){
     if(imagens.src.match("bulb-on.png")){
        
         imagens.src = "bulb-off.png";
-        
-        
 
     }else {
 
         imagens.src = "bulb-on.png";
     }
-      
-    
+       
 }
 
 
